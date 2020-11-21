@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-21T21:59:55 EET" name="BlueRide Regression Suite" finished-at="2020-11-21T22:00:25 EET" duration-ms="29794">
+    <groups>
+    </groups>
+    <test started-at="2020-11-21T21:59:55 EET" name="Regression Test" finished-at="2020-11-21T22:00:25 EET" duration-ms="29794">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:30 EET" name="startDriver" finished-at="2020-11-21T21:59:55 EET" duration-ms="25188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome-headless]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:55 EET" name="userFailToLogin" data-provider="testWrongData" finished-at="2020-11-21T21:59:56 EET" duration-ms="1141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[odsgvxz@gj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFailToLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:56 EET" name="cleanUp" finished-at="2020-11-21T21:59:56 EET" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:56 EET" name="screenshotOnFailure" finished-at="2020-11-21T21:59:56 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFailToLogin status=SUCCESS method=LoginTest.userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:56 EET" name="userFailToLogin" data-provider="testWrongData" finished-at="2020-11-21T21:59:57 EET" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[osama@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[187564]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFailToLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="cleanUp" finished-at="2020-11-21T21:59:57 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="screenshotOnFailure" finished-at="2020-11-21T21:59:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFailToLogin status=SUCCESS method=LoginTest.userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="userFailToLogin" data-provider="testWrongData" finished-at="2020-11-21T21:59:57 EET" duration-ms="291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[odsjoh@fjngsjs.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[215487]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userFailToLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="cleanUp" finished-at="2020-11-21T21:59:57 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="screenshotOnFailure" finished-at="2020-11-21T21:59:57 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userFailToLogin status=SUCCESS method=LoginTest.userFailToLogin(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userLoginSuccessfully(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T21:59:57 EET" name="userLoginSuccessfully" data-provider="testRightData" finished-at="2020-11-21T22:00:08 EET" duration-ms="11232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[osama@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginSuccessfully -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:08 EET" name="cleanUp" finished-at="2020-11-21T22:00:08 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:08 EET" name="screenshotOnFailure" finished-at="2020-11-21T22:00:08 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLoginSuccessfully status=SUCCESS method=LoginTest.userLoginSuccessfully(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method signature="userLoginSuccessfully(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:08 EET" name="userLoginSuccessfully" data-provider="testRightData" finished-at="2020-11-21T22:00:25 EET" duration-ms="16704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hennawyadmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLoginSuccessfully -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:25 EET" name="cleanUp" finished-at="2020-11-21T22:00:25 EET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:25 EET" name="screenshotOnFailure" finished-at="2020-11-21T22:00:25 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userLoginSuccessfully status=SUCCESS method=LoginTest.userLoginSuccessfully(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@59af0466] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method is-config="true" signature="stopDriver()[pri:0, instance:tests.LoginTest@59af0466]" started-at="2020-11-21T22:00:25 EET" name="stopDriver" finished-at="2020-11-21T22:00:26 EET" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- BlueRide Regression Suite -->
+</testng-results>
